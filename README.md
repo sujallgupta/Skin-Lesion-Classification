@@ -58,9 +58,11 @@ lesion_type_dict = {
     "nv": "Melanocytic nevi",
     "vasc": "Vascular lesions"
 }
+```
+
 ## Results
 
-The hybrid EfficientNet + Swin Transformer model achieved strong performance on the HAM10000 dataset.
+The hybrid EfficientNet + Swin Transformer model achieved strong performance on the HAM100100 dataset.
 
 ### Best Validation Accuracy
 
@@ -95,6 +97,8 @@ The model was evaluated using multiple performance metrics:
 
 These metrics provide a detailed understanding of model performance across all skin lesion classes, especially considering the class imbalance in the dataset.
 
+---
+
 ## Project Status
 
 This project is currently **a work in progress**. I am still experimenting with the model architecture, training strategy, and evaluation methods.
@@ -108,4 +112,3 @@ Planned improvements include:
 - Improving data augmentation strategies
 - Better handling of class imbalance
 - Additional evaluation and analysis
-
